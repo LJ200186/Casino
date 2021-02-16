@@ -19,7 +19,7 @@ public class Roulette extends javax.swing.JFrame {
 
     
     double rot = 3.0;
-    ImageIcon icon = new javax.swing.ImageIcon(getClass().getResource("RouletteWheel"));
+    ImageIcon icon = new javax.swing.ImageIcon(getClass().getResource("RouletteWheel.jpg"));
     
     public Roulette() {
         initComponents();
@@ -33,7 +33,7 @@ public class Roulette extends javax.swing.JFrame {
         
         jLabel1.setIcon(icon);
         
-        Graphics2D g2 = (Graphics2D) jLabel1.;
+        Graphics2D g2 = (Graphics2D) jLabel1.getGraphics();
         g2.rotate(rot, icon.getIconWidth() / 2, icon.getIconHeight() / 2);
         g2.drawImage(icon.getImage(), 0, 0, null);
     }

@@ -5,6 +5,10 @@
  */
 package casino;
 
+/*
+    Requires com.googlecode.json-simple:json-simple:1.1.1
+ */
+
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 import java.io.File;
